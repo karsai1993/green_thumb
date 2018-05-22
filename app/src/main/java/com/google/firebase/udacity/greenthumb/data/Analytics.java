@@ -26,11 +26,11 @@ public class Analytics {
         );
 
         FirebaseAnalytics.getInstance(context).logEvent(
-                FirebaseAnalytics.Event.VIEW_ITEM_LIST, bundle
+                FirebaseAnalytics.Event.BEGIN_CHECKOUT, bundle
         );
 
         FirebaseAnalytics.getInstance(context).logEvent(
-                FirebaseAnalytics.Event.SET_CHECKOUT_OPTION, bundle
+                FirebaseAnalytics.Event.ECOMMERCE_PURCHASE, bundle
         );
 
         FirebaseAnalytics.getInstance(context).logEvent(
